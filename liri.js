@@ -104,10 +104,12 @@ function movieThis() {
         userQuery = "mr nobody";
     };
     // Request OMDB API
-    request("http://www.omdbapi.com/?i=tt3896198" + userQuery + "&apikey=180b2357", function (error, response, body) {
+    request("http://www.omdbapi.com/?i=tt3896198&t=" + userQuery + "&apikey=180b2357", function (error, response, body) {
         let userMovie = JSON.parse(body);
 
+        console.log(userMovie);
         let ratingsArr = userMovie.Ratings;
+        //console.log(ratingsArr);
         if (ratingsArr.length > 2) {}
 
         if (!error && response.statusCode === 200) {
