@@ -8,3 +8,9 @@ Dotenv: Dotenv is a zero-dependency module that loads environment variables fro
 Request: - Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default. Command Line: 'npm install request' 
 Moment: - A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates. Command Line: 'npm install moment' 
 Fs: - a built in node package (npm i request) 
+
+
+<img src='terminal_movie.png'>
+
+
+Running Node liri.js movie-this results above.
